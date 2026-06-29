@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+header {
+  background-color: #ff0000;
+  color: white;
+  padding: 20px;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+section {
+  margin: 20px;
+  padding: 10px;
+}
+
+/* Chatbox más compacto */
+#chatbox {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 8px;
+  background-color: white;
+  min-height: 80px;
+  text-align: left;
+  font-size: 14px;
+}
+
+/* Campo de texto y botón */
+#input-area {
+  margin-top: 10px;
+}
+
+#userInput {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#sendBtn {
+  padding: 8px 15px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#sendBtn:hover {
+  background-color: #cc0000;
+}
+
+/* Contacto */
+#contacto form {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#contacto input,
+#contacto textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contacto button {
+  padding: 8px 15px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contacto button:hover {
+  background-color: #cc0000;
+}
+
+/* WhatsApp */
+#whatsapp a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #25D366;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#whatsapp a:hover {
+  background-color: #1ebe5d;
+}

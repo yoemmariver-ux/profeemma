@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Filial Valle Viejo - La Banda de River</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo Filial River" class="logo">
+    <h1>⚪🔴 Filial Valle Viejo – La Banda de River ⚪🔴</h1>
+  </header>
+
+  <main>
+    <!-- Asistente Virtual -->
+    <section id="asistente">
+      <h2>Asistente Virtual</h2>
+      <div id="chatbox"></div>
+      <div id="input-area">
+        <input type="text" id="userInput" placeholder="Escribí tu consulta aquí...">
+        <button id="sendBtn">Enviar</button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form name="contacto" method="POST" data-netlify="true">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- WhatsApp -->
+    <section id="whatsapp">
+      <h2>WhatsApp</h2>
+      <a href="https://wa.me/549XXXXXXXXXX" target="_blank">
+        📲 Escribinos por WhatsApp
+      </a>
+    </section>
+  </main>
+
+  <!-- Librería para leer Excel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
